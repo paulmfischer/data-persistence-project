@@ -7,7 +7,8 @@ using UnityEngine.SceneManagement;
 public class Menu : MonoBehaviour
 {
     public TextMeshProUGUI userName;
-    
+
+
     public void LoadGame()
     {
         MainData.Instance.UserName = userName.text;
